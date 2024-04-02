@@ -10,7 +10,7 @@ This repository hosts all files and datasets for the Stroke Prediction Model pro
   - `validation-processed-healthcare-dataset-stroke-data.csv` - The cleaned dataset for testing.
 
 - `/notebooks`: Jupyter notebooks for data preprocessing, analysis, model invocation, and evaluation.
-  - `data_preprocessing.ipynb` - Notebook for data cleaning and preparation.
+  - `preprocessing.ipynb` - Notebook for data cleaning and preparation.
   - `model_evaluation.ipynb` - Notebook for invoking the AWS model endpoint, making predictions, and evaluating the model using the test dataset.
 
 ## Getting Started
@@ -43,8 +43,8 @@ aws configure
 
 ## Usage
 
-- **Data Exploration**: Visit the `/datasets` folder to access both the raw and processed datasets.
-- **Data Preprocessing**: Run the `data_preprocessing.ipynb` notebook to prepare your data for modeling.
+- **Data Exploration**: Visit the `/data` folder to access both the raw and processed datasets.
+- **Data Preprocessing**: Run the `preprocessing.ipynb` notebook to prepare your data for modeling.
 - **Model Invocation and Evaluation**: The `model_evaluation.ipynb` notebook details how to call the SageMaker model endpoint for predictions and evaluate its performance based on the processed test data.
 
 ## Contributing
