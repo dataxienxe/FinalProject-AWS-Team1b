@@ -4,10 +4,10 @@ This repository hosts all files and datasets for the Stroke Prediction Model pro
 
 ## Project Structure
 
-- `/datasets`: This directory contains the initial dataset alongside the cleaned training and testing sets.
-  - `initial_data.csv` - The raw dataset prior to preprocessing.
-  - `train_set.csv` - The cleaned dataset for training.
-  - `test_set.csv` - The cleaned dataset for testing.
+- `/data`: This directory contains the initial dataset alongside the cleaned training and testing sets.
+  - `healthcare-dataset-stroke-data.csv` - The raw dataset prior to preprocessing.
+  - `train_processed-healthcare-dataset-stroke-data.csv` - The cleaned dataset for training.
+  - `validation-processed-healthcare-dataset-stroke-data.csv` - The cleaned dataset for testing.
 
 - `/notebooks`: Jupyter notebooks for data preprocessing, analysis, model invocation, and evaluation.
   - `data_preprocessing.ipynb` - Notebook for data cleaning and preparation.
